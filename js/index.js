@@ -3,8 +3,8 @@ const humanPlayer = 'O';
 const computerPlayer = 'X';
 const sound1 = new Audio('https://raw.githubusercontent.com/Eiqko/tictac/master/js/go.mp3'); 
 const sound2 = new Audio('https://raw.githubusercontent.com/Eiqko/tictac/master/js/win.mp3'); 
-const sound1 = new Audio('../js/go.mp3'); 
-const sound2 = new Audio('../js/win.mp3'); 
+// const sound1 = new Audio('../js/go.mp3'); uncomment if you want use this on your computer
+// const sound2 = new Audio('../js/win.mp3'); 
 const winingCombos = [
     [0, 1, 2],
 	[3, 4, 5],
