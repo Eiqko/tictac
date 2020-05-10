@@ -1,8 +1,8 @@
 var board;
 const humanPlayer = 'O';
 const computerPlayer = 'X';
-const sound1 = new Audio('../css/go.mp3'); 
-const sound2 = new Audio('../css/win.mp3'); 
+const sound1 = new Audio('https://raw.githubusercontent.com/Eiqko/tictac/master/js/go.mp3'); 
+const sound2 = new Audio('https://raw.githubusercontent.com/Eiqko/tictac/master/js/win.mp3'); 
 const winingCombos = [
     [0, 1, 2],
 	[3, 4, 5],
